@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [SauceLabTestExecuteSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="Test(failed)">
+    <classes>
+      <class name="com.hcl.testcases.BindingPageTest">
+        <methods>
+          <include name="verifyBrandingLinkTest"/>
+          <include name="verifyServicesLinkTest"/>
+          <include name="getBrandingPageTextText"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addLoginDetails"/>
+          <include name="writeIntoBrandingDataToExcelTest"/>
+          <include name="brandingTitleTest"/>
+        </methods>
+      </class> <!-- com.hcl.testcases.BindingPageTest -->
+      <class name="com.hcl.testcases.TestimonialsPageTest">
+        <methods>
+          <include name="getNameOfClientTest"/>
+          <include name="writeClientTextIntoFileTest"/>
+          <include name="homePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.hcl.testcases.TestimonialsPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [SauceLabTestExecuteSuite] -->
